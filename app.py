@@ -4,7 +4,7 @@ from products import products
 
 @app.route('/ping')
 def ping():
-    return jsonify({"message":"Pong!"})
+    return jsonify({"message":"Pong de rebote!"})
 
 @app.route('/products', methods=['GET'])   #por defecto la ruta sin añadirle el tipo de método usan el método get,  
 # por lo cual en le ruta anterior no necesitamos aclarar el tipo de petición, esto sirve sólo cuando hagas una petición 
